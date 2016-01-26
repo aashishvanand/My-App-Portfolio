@@ -26,48 +26,39 @@ public class MainActivity extends AppCompatActivity {
         Button button5 = (Button) findViewById(R.id.button5);
         Button button6 = (Button) findViewById(R.id.button6);
 
+
+
         button.setOnClickListener(new View.OnClickListener(){
-            public void onClick(View v)
-            {
-                Toast toast = Toast.makeText(getApplicationContext(),"This will launch Spotify Streamer",Toast.LENGTH_SHORT);
-                toast.show();
+            public void onClick(View v) {
+                DisplayText(getResources().getString(R.string.SpotifyText));
             }
         });
         button2.setOnClickListener(new View.OnClickListener(){
-            public void onClick(View v)
-            {
-                Toast toast = Toast.makeText(getApplicationContext(),"This will launch Scores App",Toast.LENGTH_SHORT);
-                toast.show();
+            public void onClick(View v) {
+                DisplayText(getResources().getString(R.string.ScoresText));
             }
         });
         button3.setOnClickListener(new View.OnClickListener(){
-            public void onClick(View v)
-            {
-                Toast toast = Toast.makeText(getApplicationContext(),"This will launch Library App",Toast.LENGTH_SHORT);
-                toast.show();
+            public void onClick(View v) {
+                DisplayText(getResources().getString(R.string.LibraryText));
             }
         });
         button4.setOnClickListener(new View.OnClickListener(){
-            public void onClick(View v)
-            {
-                Toast toast = Toast.makeText(getApplicationContext(),"This will launch Build it Bigger",Toast.LENGTH_SHORT);
-                toast.show();
+            public void onClick(View v) {
+                DisplayText(getResources().getString(R.string.BuilditText));
             }
         });
         button5.setOnClickListener(new View.OnClickListener(){
-            public void onClick(View v)
-            {
-                Toast toast = Toast.makeText(getApplicationContext(),"This will launch XYZ Reader",Toast.LENGTH_SHORT);
-                toast.show();
+            public void onClick(View v) {
+                DisplayText(getResources().getString(R.string.ReaderText));
             }
         });
         button6.setOnClickListener(new View.OnClickListener(){
-            public void onClick(View v)
-            {
-                Toast toast = Toast.makeText(getApplicationContext(),"This will launch CAPSTONE",Toast.LENGTH_SHORT);
-                toast.show();
+            public void onClick(View v) {
+                DisplayText(getResources().getString(R.string.CapstoneText));
             }
         });
+
 
     }
 
@@ -91,5 +82,9 @@ public class MainActivity extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    void DisplayText(String s){
+        Toast.makeText(MainActivity.this, s, Toast.LENGTH_SHORT).show();
     }
 }

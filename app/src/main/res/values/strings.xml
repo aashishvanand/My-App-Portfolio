@@ -7,5 +7,11 @@
     <string name="Button4">Build it Bigger</string>
     <string name="Button5">XYZ Reader</string>
     <string name="Button6">CAPSTONE</string>
+    <string name="SpotifyText">This button will launch Spotify Streamer</string>
+    <string name="ScoresText">This button will launch Scores App</string>
+    <string name="LibraryText">This button will launch Library App</string>
+    <string name="BuilditText">This button will launch Build it Bigger</string>
+    <string name="ReaderText">This button will launch XYZ Reader</string>
+    <string name="CapstoneText">This button will launch CAPSTONE</string>
 
 </resources>
