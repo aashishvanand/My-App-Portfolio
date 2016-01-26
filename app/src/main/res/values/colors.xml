@@ -3,4 +3,11 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="SpotifyBtn">#C5CAE9</color>
+    <color name="ScoresBtn">#9FA8DA</color>
+    <color name="LibraryBtn">#7986CB</color>
+    <color name="BuilditBtn">#303F9F</color>
+    <color name="ReaderBtn">#283593</color>
+    <color name="CAPSTONEBtn">#1A237E</color>
+    <color name="White">#FFFFFF</color>
 </resources>
